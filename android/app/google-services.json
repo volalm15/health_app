@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "606240602633",
+    "project_id": "healthapp-92a88",
+    "storage_bucket": "healthapp-92a88.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606240602633:android:07c24ce7eed627e06316d8",
+        "android_client_info": {
+          "package_name": "com.volalm15.healthapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606240602633-g98o4624keo7tic7gcnod8jj93entthh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwQW9J-OAPA_iDWZhU6WAUeNGMH2ZnnXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606240602633-g98o4624keo7tic7gcnod8jj93entthh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
