@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:health_app/application/auth/sign_in_form/sign_in_form_bloc.dart';
 import 'package:health_app/presentation/sign_in/widgets/sign_in_form.dart';
-
-import '../../injection.dart';
 
 class SignInPage extends StatelessWidget {
   @override
@@ -12,10 +8,7 @@ class SignInPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Sign In'),
       ),
-      body: BlocProvider(
-        create: (context) => getIt<SignInFormBloc>(),
-        child: SignInForm(),
-      ),
+      body: SignInForm(),
     );
   }
 }

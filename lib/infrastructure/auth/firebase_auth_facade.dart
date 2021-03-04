@@ -6,9 +6,7 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:health_app/domain/auth/auth_failure.dart';
 import 'package:health_app/domain/auth/i_auth_facade.dart';
 import 'package:health_app/domain/auth/value_objects.dart';
-import 'package:injectable/injectable.dart';
 
-@LazySingleton(as: IAuthFacade)
 class FirebaseAuthFacade implements IAuthFacade {
   final FirebaseAuth _firebaseAuth;
   final GoogleSignIn _googleSignIn;
