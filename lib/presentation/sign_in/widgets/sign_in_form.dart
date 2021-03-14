@@ -23,13 +23,13 @@ class SignInForm extends ConsumerWidget {
                     margin: const EdgeInsets.all(8),
                     // Again, FlashBar is a perfect candidate for the child widget.
                     child: FlashBar(
-                      message: Text('This FlashBar looks like an AlertDialog.'),
+                      message: const Text('This FlashBar looks like an AlertDialog.'),
                       actions: [
                         FlatButton(
                           onPressed: () {
                             controller.dismiss();
                           },
-                          child: Text('OK'),
+                          child: const Text('OK'),
                         ),
                       ],
                     ),
@@ -50,9 +50,9 @@ class SignInForm extends ConsumerWidget {
       child: ListView(
         children: [
           const Text(
-            '📝',
+            'Welcome',
             textAlign: TextAlign.center,
-            style: TextStyle(fontSize: 130),
+            style: TextStyle(fontSize: 16),
           ),
           const SizedBox(height: 8),
           TextFormField(
