@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="414" height="194" viewBox="0 0 414 194">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rechteck_16" data-name="Rechteck 16" width="414" height="194" transform="translate(-0.406 27.725)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Gruppe_maskieren_2" data-name="Gruppe maskieren 2" transform="translate(0.406 -27.725)" clip-path="url(#clip-path)">
+    <path id="Pfad_2" data-name="Pfad 2" d="M1.681,786.1s137.4-128.75,294.973-84.552,252.7-399.1,252.7-399.1l-31.715,723.857H-8.888Z" transform="translate(163.342 877.467) rotate(-155)" fill="#6cc57c" opacity="0.2"/>
+    <path id="Pfad_1" data-name="Pfad 1" d="M1.681,786.1s137.4-128.75,294.973-84.552,220.989-280.56,220.989-280.56v605.319H-8.888Z" transform="translate(178.636 853.111) rotate(-155)" fill="#6cc57c"/>
+  </g>
+</svg>

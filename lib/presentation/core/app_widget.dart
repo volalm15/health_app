@@ -21,7 +21,6 @@ class AppWidget extends StatelessWidget {
           router: MyRouter(),
         ),
       ),
-
     );
   }
 }
